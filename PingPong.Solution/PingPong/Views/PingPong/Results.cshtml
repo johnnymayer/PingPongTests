@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PingPongResults</title>
+  </head>
+  <body>
+    <ul>
+    @foreach (var PingPongGenerator in Model)
+    {
+      <li>@PingPongGenerator.GetPingPongNumber()</li>
+    }
+  </ul>
+  </body>
+</html>
